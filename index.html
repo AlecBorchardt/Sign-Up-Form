@@ -55,12 +55,12 @@
                         <input type="number" name="phone">
 
                     <label for="cpass">Confirm Password</label>
-                        <input type="password" name="cpass">
+                        <input type="password" name="cpass" id="cpass">
                 </div>
             </div>
 
             <div id="subtile">
-                <button type="submit" >Create Account</button>
+                <button type="submit" onclick="passwordConfirmation()" >Create Account</button>
                 <p>Already have an account? &nbsp;&nbsp;<a href="..."><strong>Log In</strong></a></p>
             </div>
 
@@ -71,5 +71,28 @@
         </div>
 
     </div>
+    <script>
+    function passwordConfirmation() {
+            var password = document.getElementById("password").value;
+            var confirmPassword = document.getElementById("cpass").value;
+
+            var pw = document.getElementById("password");
+            var cfpw = document.getElementById("cpass");
+           
+            if (password == "") {
+                event.preventDefault();
+                pw.style.backgroundColor = "red";
+                cfpw.style.backgroundColor = "red";
+                alert("Please Enter Passoword.");
+            } else if (password == confirmPassword) {
+                alert("Log-In Successful!");
+            } else {
+                event.preventDefault();
+                pw.style.backgroundColor = "red";
+                cfpw.style.backgroundColor = "red";
+                alert("Error: Passwords Do Not Match!")
+            }
+}
+    </script>
 </body>
 </html>

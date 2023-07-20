@@ -39,7 +39,7 @@
      showgrid="false"
      inkscape:window-width="1540"
      inkscape:window-height="900"
-     inkscape:window-x="2112"
+     inkscape:window-x="362"
      inkscape:window-y="3"
      inkscape:window-maximized="0" />
   <metadata
@@ -78,11 +78,11 @@
     <text
        xml:space="preserve"
        id="text24"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect26);fill:#ff9955;fill-opacity:1;stroke:none;"
-       transform="matrix(6.0834992,0,0,6.4749819,-73.673703,-985.73821)"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:'Imprint MT Shadow';-inkscape-font-specification:'Imprint MT Shadow';white-space:pre;shape-inside:url(#rect26);fill:#ff9955;fill-opacity:1;stroke:none;"
+       transform="matrix(6.0834992,0,0,6.4749819,-49.619446,-993.22176)"><tspan
          x="13.898438"
-         y="187.8989"><tspan
-           style="fill:#ff9955">Company Logo</tspan></tspan></text>
+         y="187.74065"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Matura MT Script Capitals';-inkscape-font-specification:'Matura MT Script Capitals';fill:#d45500">Company Logo</tspan></tspan></text>
     <path
        sodipodi:type="star"
        style="fill:#ff6600;stroke-width:0.264583"
